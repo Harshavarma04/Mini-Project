@@ -23,28 +23,22 @@ It extracts comments, filters out irrelevant ones, and classifies them into posi
 # Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/Mini-Project.git
-   cd Mini-Project
-   ```
+   -git clone https://github.com/Harshavarma04/Mini-Project.git
+   -cd Mini-Project
+
 2. Install dependencies:
-   ```sh
-   pip install flask google-api-python-client vaderSentiment langdetect emoji
-   ```
+   -pip install flask google-api-python-client vaderSentiment langdetect emoji
+
 3. Set up your API key:
    - Create a `config.py` file in the root directory.
    - Add the following line:
-     ```python
-     key = "YOUR_YOUTUBE_API_KEY"
-     ```
+        key = "YOUR_YOUTUBE_API_KEY"
+
 4. Run the application:
-   ```sh
-   python yt.py
-   ```
+       python yt.py
+   
 5. Open a browser and go to:
-   ```
-   http://127.0.0.1:5000/
-   ```
+       http://127.0.0.1:5000/
 
 # Usage
 
