@@ -1,0 +1,64 @@
+# YouTube Comments Sentiment Analysis
+
+## Overview
+
+This project is a web-based application that analyzes the sentiment of YouTube video comments using Natural Language Processing (NLP) techniques.
+It extracts comments, filters out irrelevant ones, and classifies them into positive, negative, or neutral sentiments.
+
+## Features
+
+- Extracts comments from a YouTube video using the YouTube Data API.
+- Filters out non-English comments and spam.
+- Performs sentiment analysis using VADER Sentiment Analyzer.
+- Displays sentiment distribution in a pie chart and bar chart.
+- Provides a summary of sentiment classification.
+- Allows downloading the sentiment report as a PDF.
+
+## Technologies Used
+
+- **Backend**: Flask, Google API Client, VADER Sentiment Analysis, LangDetect
+- **Frontend**: HTML, CSS, JavaScript, jQuery, Chart.js
+- **Libraries**: Flask, googleapiclient, re, emoji, vaderSentiment, langdetect, jspdf, html2canvas
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Mini-Project.git
+   cd Mini-Project
+   ```
+2. Install dependencies:
+   ```sh
+   pip install flask google-api-python-client vaderSentiment langdetect emoji
+   ```
+3. Set up your API key:
+   - Create a `config.py` file in the root directory.
+   - Add the following line:
+     ```python
+     key = "YOUR_YOUTUBE_API_KEY"
+     ```
+4. Run the application:
+   ```sh
+   python yt.py
+   ```
+5. Open a browser and go to:
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+## Usage
+
+1. Enter a YouTube video URL.
+2. Specify the number of comments to fetch (max 800).
+3. Click "Analyze" to process the comments.
+4. View the sentiment summary and charts.
+5. Download the report as a PDF.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Pendyala Harsha Vardhini - [GitHub Profile]-(https://github.com/Harshavarma04)
+
